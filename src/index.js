@@ -5,7 +5,7 @@ import "./style.css";
 const Cell = function(props) {
   // const [text, setText] = useState("");
 
-  const onClickCell = () => {};
+  // const onClickCell = () => {};
   return (
     <div className="cell" onClick={props.onClick}>
       {props.text}
